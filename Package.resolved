@@ -1,0 +1,60 @@
+{
+  "originHash" : "2a53e36a9c25747ee6cf9d87e00edd3742479659497b802efce7c88b78de98f3",
+  "pins" : [
+    {
+      "identity" : "logfmt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adamwulf/Logfmt",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a6d6eb29177f65f3e252610a2176d318026d634c"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift",
+      "state" : {
+        "revision" : "a95fc6df17d108bd99210db5e8a9bac90fe984b8",
+        "version" : "0.15.3"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "0fbc8848e389af3bb55c182bc19ca9d5dc2f255b",
+        "version" : "1.4.0"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "9cb486020ebf03bfa5b5df985387a14a98744537",
+        "version" : "1.6.1"
+      }
+    },
+    {
+      "identity" : "swifttoolbox",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adamwulf/SwiftToolbox",
+      "state" : {
+        "branch" : "main",
+        "revision" : "376d0f4e928a94551a2d69ef9acff05445b08e35"
+      }
+    },
+    {
+      "identity" : "usearch",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unum-cloud/USearch",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5ea48c87c56a25ab57634a8f207f80ae675ed58e"
+      }
+    }
+  ],
+  "version" : 3
+}
