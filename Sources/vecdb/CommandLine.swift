@@ -37,7 +37,7 @@ struct Example: AsyncParsableCommand {
 
     static var configuration = CommandConfiguration(
         commandName: "example",
-        abstract: "Embed and store the input text into the database"
+        abstract: "Store a few words into the database, and then search for a novel vector to find similar words."
     )
 
     func run() async throws {
@@ -79,7 +79,7 @@ struct Search: AsyncParsableCommand {
 
     static var configuration = CommandConfiguration(
         commandName: "search",
-        abstract: "Embed and store the input text into the database"
+        abstract: "Search the database for closest matching words to the input text."
     )
 
     func run() async throws {
@@ -117,7 +117,7 @@ struct Lookup: AsyncParsableCommand {
 
     static var configuration = CommandConfiguration(
         commandName: "lookup",
-        abstract: "Embed and store the input text into the database"
+        abstract: "Lookup and print the embedding of the input text, if found"
     )
 
     func run() async throws {
